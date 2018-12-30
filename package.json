@@ -1,0 +1,42 @@
+{
+  "name": "jscourse--finalassignment",
+  "version": "1.0.0",
+  "description": "this is the javascript course project",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha path ./src/test",
+    "dev": "webpack",
+    "watch": "npm run dev -- --watch"
+  },
+  "author": "sina shariati (sina.shariati@yahoo.com)",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chai-integer": "^0.1.0",
+    "expect.js": "^0.3.1",
+    "mocha": "^5.2.0",
+    "webpack-cli": "^3.1.2",
+    "wepack": "0.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "babel-loader": "^8.0.4",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "lodash": "^4.17.11",
+    "standard": "^12.0.1",
+    "webpack": "^4.26.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Noisyboy-9/jsCourse_finalAssignment.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Noisyboy-9/jsCourse_finalAssignment/issues"
+  },
+  "homepage": "https://github.com/Noisyboy-9/jsCourse_finalAssignment#readme"
+}
